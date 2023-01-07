@@ -115,6 +115,10 @@ h2 {
     font-size: 5.063rem;
 }
 
+#smaller {
+    font-size: 4.5em;
+}
+
 h3 {
     font-size: 3.375rem;
 }
@@ -161,7 +165,21 @@ small,
 .wrapper {
     padding: 2em;
 }
-
+.btn {
+    padding: 8px 16px;
+    text-decoration: none ;
+    color: #000000;
+}
+.btn-secondary{
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    color: rgb(63, 57, 57);
+}
+.btn-secondary:hover {
+    border: 1px solid rgb(185, 92, 92);
+    border-radius: 30px;
+    background-color: rgb(214, 143, 143);
+}
 .hero>div {
     min-height: 100vh;
 }
@@ -183,11 +201,31 @@ small,
     width: 1.3em;
     margin: 0.5em;
 }
+
 .social-sidebar {
     margin: 0 1em;
 }
+
 .logo {
     width: 4em;
+}
+
+.hero-copy>h2>span {
+    color: orange;
+}
+
+.hero-copy span {
+    text-transform: capitalize;
+}
+.hero-copy{
+    position: relative;
+}
+.design{
+    font-size: 8em;
+    position: absolute;
+    opacity: 15%;
+left: -60px;
+top: -44px;
 }
 
 .social-footer {
